@@ -26,6 +26,7 @@ const App = () => {
         <Route path='/myprofile' element={<Myprofile/>} />
         <Route path='/my-appinments' element={<Myappoinment/>} />
         <Route path='/appoinment/:docId' element={<Appoinment/>} />
+      
      
       </Routes>
          <Footer/>
